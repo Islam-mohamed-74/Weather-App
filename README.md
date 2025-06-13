@@ -17,6 +17,7 @@ https://islam-mohamed-74.github.io/Weather-App/
 
 - HTML5
 - CSS3
+- Bootsrap
 - JavaScript (Vanilla)
 - [OpenWeatherMap API](https://openweathermap.org/api) or similar
 
