@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <!-- font awesom library -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-icon">
+          <img src="icon/header.svg" alt="" />
+          <p>wheather app</p>
+        </div>
+        <div class="inputs">
+          <input type="text" placeholder="Search for cities" />
+          <div class="suggestions" style="display: none"></div>
+        </div>
+        <div class="errorMessage" style="display: none"></div>
+        <div class="fc">
+          <img class="body-2" src="icon/F.svg" alt="" />
+          <img class="body-2" src="icon/°C.svg" alt="" />
+        </div>
+      </header>
+      <div class="main">
+        <div class="sec1">
+          <div class="row-1">
+            <div class="wheatherNow">
+              <p class="body text-grey-900-60 skeleton data"></p>
+              <h3 class="headline-l text-grey-900-87 skeleton city"></h3>
+              <h2 class="headline-xl text-grey-900-87 skeleton temp"></h2>
+            </div>
+            <img src="icon/iconMain.svg" alt="" />
+          </div>
+          <div class="row-2 skeleton">
+            <p class="body-2 text-grey-900-60">Today’s forecast</p>
+            <div class="container-forecast">
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+              <div class="box">
+                <p class="skeleton time"></p>
+                <p class="skeleton icon"></p>
+                <p class="skeleton temp"></p>
+              </div>
+            </div>
+          </div>
+          <div class="row-3 skeleton">
+            <span class="body-2 text-grey-900-60">Weather Details</span>
+            <div class="container-details">
+              <div class="sunrise skeleton">
+                <div class="text skeleton">
+                  <p>sunrise</p>
+                  <h3 class="sunriseH3 headline-m skeleton"></h3>
+                </div>
+                <div class="icon skeleton">
+                  <img src="icon/sunrise.svg" alt="" />
+                </div>
+              </div>
+              <div class="sunset skeleton">
+                <div class="text">
+                  <p>sunset</p>
+                  <h3 class="sunsetH3 headline-m"></h3>
+                </div>
+                <div class="icon">
+                  <img src="icon/sunset.svg" alt="" />
+                </div>
+              </div>
+              <div class="Chance-of-rain skeleton">
+                <div class="text">
+                  <p>Chance of rain</p>
+                  <h3 class="rain-h3"></h3>
+                </div>
+                <div class="icon"><img src="icon/chance.svg" alt="" /></div>
+              </div>
+              <div class="wind skeleton">
+                <div class="text">
+                  <p>wind</p>
+                  <h3 class="windH3 headline-m"></h3>
+                </div>
+                <div class="icon"><img src="icon/wind.svg" alt="" /></div>
+              </div>
+              <div class="humidity skeleton">
+                <div class="text">
+                  <p>humidity</p>
+                  <h3 class="humidityH3 headline-m"></h3>
+                </div>
+                <div class="icon"></div>
+              </div>
+              <div class="fellsLike skeleton">
+                <div class="text">
+                  <p>fells like</p>
+                  <h3 class="fellsH3 headline-m"></h3>
+                </div>
+                <div class="icon"><img src="icon/fells like.svg" alt="" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sec2 skeleton">
+          <h2 class="body-2 text-grey-900-60">7 days forecast</h2>
+          <div class="containerDays">
+            <div class="day1">
+              <div class="box">
+                <div class="text skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                  <p class="body"></p>
+                </div>
+                <div class="icon skeleton">
+                  <img src="icon/chance.svg" alt="" />
+                  <p class="body"></p>
+                </div>
+                <div class="temp skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                </div>
+              </div>
+            </div>
+            <div class="day1">
+              <div class="box">
+                <div class="text skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                  <p class="body"></p>
+                </div>
+                <div class="icon skeleton">
+                  <img src="icon/chance.svg" alt="" />
+                  <p class="body"></p>
+                </div>
+                <div class="temp skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                </div>
+              </div>
+            </div>
+            <div class="day1">
+              <div class="box">
+                <div class="text skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                  <p class="body"></p>
+                </div>
+                <div class="icon skeleton">
+                  <img src="icon/chance.svg" alt="" />
+                  <p class="body"></p>
+                </div>
+                <div class="temp skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                </div>
+              </div>
+            </div>
+            <div class="day1">
+              <div class="box">
+                <div class="text skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                  <p class="body"></p>
+                </div>
+                <div class="icon skeleton">
+                  <img src="icon/chance.svg" alt="" />
+                  <p class="body"></p>
+                </div>
+                <div class="temp skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                </div>
+              </div>
+            </div>
+            <div class="day1">
+              <div class="box">
+                <div class="text skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                  <p class="body"></p>
+                </div>
+                <div class="icon skeleton">
+                  <img src="icon/chance.svg" alt="" />
+                  <p class="body"></p>
+                </div>
+                <div class="temp skeleton">
+                  <h3 class="body text-grey-900-60"></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="fun.js"></script>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
