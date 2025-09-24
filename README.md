@@ -1,7 +1,7 @@
 # Weather App 🌤️
 
 A simple and interactive weather application built using JavaScript. It fetches real-time weather data from an external API based on user input (city name).
-
+![preview](./image.jpg)
 ## 🚀 Features
 
 - Fetch weather data using Fetch API
